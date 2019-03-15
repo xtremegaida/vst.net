@@ -1,0 +1,32 @@
+﻿namespace VST.NET
+{
+   public enum VstCanDoFeature
+   {
+      SendVstEvents,
+      SendVstMidiEvent,
+      SendVstTimeInfo,
+      ReceiveVstEvents,
+      ReceiveVstMidiEvent,
+      ReceiveVstTimeInfo,
+      Offline,
+      PlugAsChannelInsert,
+      PlugAsSend,
+      MixDryWet,
+      NoRealTime,
+      Multipass,
+      Metapass,
+      x1in1out,
+      x1in2out,
+      x2in1out,
+      x2in2out,
+      x2in4out,
+      x4in2out,
+      x4in4out,
+      x4in8out,
+      x8in4out,
+      x8in8out,
+      MidiProgramNames,
+      ConformsToWindowRules,
+      Bypass
+   }
+}
